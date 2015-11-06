@@ -7,7 +7,7 @@ module.exports = {
 
     // Conference info
     conf: {
-		name: "OpenLabs Teste",
+		name: "OpenLabs",
 		description: "OpenLabs - 1º Conferência #OpenDev",
 		date: "05 de Dezembro",
 		// If your event is free, just comment this line
