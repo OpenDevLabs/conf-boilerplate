@@ -13,7 +13,7 @@ git add --all
 git commit -m "Deploy."
 git push origin master
 
-cd ../
+cd ../../
 rm -rf build
 
 git add --all
