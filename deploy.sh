@@ -14,6 +14,7 @@ git commit -m "Deploy."
 git push origin master
 
 cd ../
+rm -rf build
 
 git add --all
 git commit -m "Dev."
