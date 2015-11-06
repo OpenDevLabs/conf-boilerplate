@@ -12,3 +12,9 @@ cd opendevlabs.github.io
 git add --all
 git commit -m "Deploy."
 git push origin master
+
+cd ../
+
+git add --all
+git commit -m "Dev."
+git push origin master
