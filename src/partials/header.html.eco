@@ -8,14 +8,18 @@
 <header class="header">
   <div class="wrapper">
     <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
-    </h1>
-    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
+		<a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><span>Open</span>Labs</a>
+	</h1>
+	<h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
 
-    <% if @conf.price || @callToAction: %>
+	<!--h3>
+		<div id="clock"></div>
+	</h3-->
+
+	<% if @conf.price || @callToAction: %>
       <div class="call-action-area">
         <% if @conf.price: %>
-          <span class="price">Only <%= @conf.price %></span>
+		<span class="price"><%= @conf.price %></span>
         <% end %>
 
         <% if @callToAction: %>
@@ -23,6 +27,11 @@
         <% end %>
       </div>
     <% end %>
+
+	<h3>
+		Faltam <span id="clock"></span>
+	</h3>
+
   </div>
 </header>
 <!--  / HEADER -->

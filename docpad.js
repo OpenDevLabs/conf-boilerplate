@@ -7,34 +7,34 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
-      // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+		name: "OpenLabs",
+		description: "1º Conferência #OpenDev",
+		date: "05 de Dezembro",
+		// If your event is free, just comment this line
+		price: "Vagas limitadas!",
+		venue: "Auditório da Estácio",
+		address: "Rua José Acurcio Benigno, 116 - 212, Braunes, 28611-135",
+		city: "Nova Friburgo",
+		state: "RJ"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+		text: "Registre-se! É grátis.",
+		link: "http://eventick.com.br/primeiro-openlabs"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    /*forkButton: {
+		repository: "https://github.com/braziljs/conf-boilerplate"
+    },*/
 
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+	  url: "http://opendevlabs.github.io",
+      googleanalytics: "UA-31169124-2"
     },
 
     // Active sections on the website
@@ -46,144 +46,174 @@ module.exports = {
       'speakers',
       'schedule',
       'sponsors',
-      'partners'
-      // 'contact'
+      'partners',
+      //'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+		about: "Sobre",
+		location: "Local",
+		speakers: "Palestrantes",
+		schedule: "Programação",
+		sponsors: "Patrocinadores",
+		partners: "Apoio",
+		contact: "Contato"
     },
 
     // The entire schedule
-    schedule: [
-      {
-        name: "Check-in / Breakfast",
-        time: "9h00"
-      },
-      {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
-        link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
-        },
-        presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
-        }
-      },
-      {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
-        link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
-        },
-        presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
-        }
-      },
-      {
-        name: "Lunch",
-        time: "12h00"
-      },
-      {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
-        link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
-        },
-        presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
-        }
-      },
-      {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
-      },
-      {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
-      }
-    ],
+	schedule: [
+		{
+			name: "Check-in",
+			time: "8h30",
+		},
+
+		{
+			name: "Marcelo Pires",
+			photo: "themes/yellow-swan/img/marcelo.jpg",
+			bio: "DevOps.",
+			company: "",
+			link: {
+				href: "https://br.linkedin.com/in/marcpires",
+				text: "marcpires"
+			},
+			presentation: {
+				title: "Rest APIS: Por que elas são importantes",
+				description: "Depois do movimento responsive first, mobile first, hoje temo o desenvolvimento de aplicativos e produtos voltados para a abordagem API First. Neste talk, serão apresentados alguns dos motivos para essa abordagem ter ganha tanta força nos últimos anos e também algumas tendências e etc.",
+				time: "9h10"
+			}
+		},
+
+		{
+			name: "Coffee-break",
+			time: "10h00"
+		},
+
+		{
+			name: "Em breve",
+			/*photo: "",
+			bio: ".",
+			company: "",
+			link: {
+				href: "",
+				text: ""
+			},
+			presentation: {
+				title: "Em breve",
+				description: "",*/
+				time: "10h30"
+			//}
+		},
+
+		{
+			name: "Em breve",
+			/*photo: "",
+			bio: ".",
+			company: "",
+			link: {
+				href: "",
+				text: ""
+			},
+			presentation: {
+				title: "Em breve",
+				description: "",*/
+				time: "11h20"
+			//}
+		},
+
+		{
+			name: 'Almoço',
+			time: '12h10'
+		},
+
+		{
+			name: "Leonardo Marinho",
+			photo: "themes/yellow-swan/img/lhm.jpg",
+			bio: "Graduando em análise e desenvolvimento de sistemas, desenvolvedor fron/backend e mobile. Apaixonado por tecnologia, blogueiro no tempo livre e fã de star wars.",
+			company: "RG Sistemas",
+			link: {
+				href: "http://leomhl.github.io",
+				text: "leomhl"
+			},
+			presentation: {
+				title: "Desmistificando o mobile híbrido com phonegap",
+				description: "Quanto tempo e dinheiro você está disposto a investir em um aplicativo mobile? Descubra no mobile híbrido uma alternativa aos gargalos gerados pelo desenvolvimento nativo.",
+				time: "14h00"
+			}
+		},
+
+		{
+			name: "Em breve",
+			/*photo: "",
+			bio: ".",
+			company: "",
+			link: {
+				href: "",
+				text: ""
+			},
+			presentation: {
+				title: "Em breve",
+				description: "",*/
+				time: "14h50"
+			//}
+		},
+
+		{
+			name: "Coffee-break",
+			time: "15h40"
+		},
+
+		{
+			name: "Mesa redonda",
+			/*photo: "",
+			bio: ".",
+			company: "",
+			link: {
+				href: "",
+				text: ""
+			},
+			presentation: {
+				title: "Em breve",
+				description: "",*/
+				time: "16h10"
+			//}
+		},
+
+		{
+			name: "Encerramento / Sorteio",
+			/*photo: "",
+			bio: ".",
+			company: "",
+			link: {
+				href: "",
+				text: ""
+			},
+			presentation: {
+				title: "Em breve",
+				description: "",*/
+				time: "17h00"
+			//}
+		}
+
+	],
 
     // List of Sponsors
     sponsors: [
-      {
+      /*{
         name: "Eventick",
         logo: "themes/yellow-swan/img/sponsor.png",
         url: "http://eventick.com.br"
-      }
+      }*/
     ],
 
-    // List of Partners
-    partners: [
-      {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
-      }
-    ],
+	// List of Partners
+	partners: [
+		{
+			name: "Casa do Código",
+			logo: "themes/yellow-swan/img/casaCodigo.jpg",
+			url: "http://casadocodigo.com.br"
+		}
+	],
 
     // Theme path
     getTheme: function() {

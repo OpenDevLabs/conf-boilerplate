@@ -1,6 +1,9 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<p itemprop="description">O OpenLabs é o laboratório aberto do OpenDev para os amantes da tecnologia.</p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<p>Para encerrarmos o ano com chave de ouro teremos a 1º Conferência OpenLabs, um sábado inteiro de palestras e muito networking. Wi-Fi liberado, coffeebreak e emissão de certificado para todos.</p>
+
+<p>Um evento criado por desenvolvedores para desenvolvedores. ;-)</p>
+
+<p>Para conhecer o #OpenDev, acesse <a href="http://opendev.com.br/postagens/o-projeto/" target="_blank">opendev.com.br</a>.</p>

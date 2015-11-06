@@ -1,12 +1,17 @@
 <!-- NAVIGATION -->
 <nav id="nav">
-  <ul class="wrapper">
-    <% for section in @sections : %>
-      <li class="nav-item">
-        <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
-      </li>
-    <% end %>
-  </ul>
+	<div class="wrapper">
+		<div id="logo">
+			<span style="color: #000;">#</span><span style="color: #666;">Open</span><span style="color: #00A900;">Dev</span>
+		</div>
+		<ul>
+		<% for section in @sections : %>
+			<li class="nav-item">
+				<a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+			</li>
+		<% end %>
+		</ul>
+	</div>
 </nav>
 
 <hr>
