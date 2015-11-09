@@ -79,7 +79,7 @@ module.exports = {
 			},
 			presentation: {
 				title: "Rest APIS: Por que elas são importantes",
-				description: "Depois do movimento responsive first, mobile first, hoje temo o desenvolvimento de aplicativos e produtos voltados para a abordagem API First. Neste talk, serão apresentados alguns dos motivos para essa abordagem ter ganha tanta força nos últimos anos e também algumas tendências e etc.",
+				description: "Depois do movimento responsive first, mobile first, hoje temos o desenvolvimento de aplicativos e produtos voltados para a abordagem API First. Neste talk, serão apresentados alguns dos motivos para essa abordagem ter ganho tanta força nos últimos anos e também algumas tendências.",
 				time: "9h10"
 			}
 		},
@@ -90,19 +90,19 @@ module.exports = {
 		},
 
 		{
-			name: "Em breve",
-			/*photo: "",
-			bio: ".",
-			company: "",
+			name: "Gabriel Paladino",
+			photo: "themes/yellow-swan/img/gabriel.jpg",
+			bio: "Começou programar por hobbie ainda adolescente, passou a atuar profissionalmente em 2008 como desenvolvedor web e empreendedor. Desde então adquiriu experiência em projetos com diversas tecnologias focando atualmente no uso de Ruby on Rails, também atua junto ao ecossistema de tecnologia na região para fomentar o desenvolvimento de pessoas e empresas.",
+			company: "Scupen",
 			link: {
 				href: "",
 				text: ""
 			},
 			presentation: {
-				title: "Em breve",
-				description: "",*/
+				title: "Ruby, o caminho das pedras",
+				description: "Nesta palestra, veremos o dia a dia de um projeto em Ruby on Rails para que você possa começar a utilizar essa pedra preciosa. Também abordaremos conceitos, ferramentas e boas práticas que todo desenvolvedor pode utilizar para melhorar o seu trabalho.",
 				time: "10h30"
-			//}
+			}
 		},
 
 		{
