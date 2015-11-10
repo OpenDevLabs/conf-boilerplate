@@ -33,7 +33,7 @@ module.exports = {
     // Site info
     site: {
 		theme: "yellow-swan",
-		url: "http://opendevlabs.github.io",
+		url: "http://2015.openlabs.com.br",
 		googleanalytics: "UA-31169124-2"
     },
 
