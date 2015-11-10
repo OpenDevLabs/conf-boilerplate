@@ -7,8 +7,8 @@ module.exports = {
 
     // Conference info
     conf: {
-		name: "OpenLabs",
-		description: "OpenLabs - 1º Conferência #OpenDev",
+		name: "OpenLabs 2015",
+		description: "Conferência OpenLabs - by #OpenDev",
 		date: "05 de Dezembro",
 		// If your event is free, just comment this line
 		price: "Vagas limitadas!",
@@ -32,9 +32,9 @@ module.exports = {
 
     // Site info
     site: {
-      theme: "yellow-swan",
-	  url: "http://opendevlabs.github.io",
-      googleanalytics: "UA-31169124-2"
+		theme: "yellow-swan",
+		url: "http://opendevlabs.github.io",
+		googleanalytics: "UA-31169124-2"
     },
 
     // Active sections on the website
@@ -143,19 +143,22 @@ module.exports = {
 		},
 
 		{
-			name: "Em breve",
-			/*photo: "",
-			bio: ".",
-			company: "",
+			name: "Felyppe Rodrigues",
+			photo: "themes/yellow-swan/img/felyppe.jpg",
+			bio: "Engenheiro de Computação formado pela UERJ, atualmente mestrando em Engenharia de Software pela UFRJ e Analista de Sistemas da empresa Gemain no Rio de Janeiro. Seu histórico de projetos envolvem principalmente verificação, validação e testes de software, desenvolvimento web, tecnologias móveis e ubíquas.",
+			company: "Gemain",
 			link: {
 				href: "",
 				text: ""
 			},
 			presentation: {
-				title: "Em breve",
-				description: "",*/
+				title: "Testes de Software: Academia x Indústria",
+				description: "Em um mundo ideal, a indústria desenvolve soluções para o bem-estar da humanidade, enquanto a academia propõe formas de melhorar o desempenho da indústria para a geração de suas soluções. "
+					+"No entanto, o cenário atual do mercado de software mostra que a industria prefere caminhar com as próprias pernas acreditando que escutar ideias academicas a fará perder um precioso tempo de desenvolvimento. "
+					+"Em contra-partida, a academia muitas vezes tenta resolver problemas que lhe parecem interessantes, mas que de forma alguma se aplicam ao mercado. "
+					+"Os beneficios da relação entre academia e industria podem ser observados durante todo o ciclo de vida de um projeto de software. Nesta palestra especificamente, trataremos de como este trabalho conjunto pode beneficiar a atividade de testes, impactando diretamente na qualidade final do produto.",
 				time: "14h50"
-			//}
+			}
 		},
 
 		{
