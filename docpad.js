@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
 		name: "OpenLabs 2015",
-		description: "Conferência OpenLabs - by #OpenDev",
+		description: "Para encerrarmos o ano com chave de ouro, teremos a 1º Conferência OpenLabs, um sábado inteiro de palestras e muito networking. Wi-Fi liberado, coffeebreak e emissão de certificado para todos.",
 		date: "05 de Dezembro",
 		// If your event is free, just comment this line
 		price: "Vagas limitadas!",
