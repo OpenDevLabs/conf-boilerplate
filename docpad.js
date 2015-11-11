@@ -215,6 +215,11 @@ module.exports = {
 			name: "Casa do Código",
 			logo: "themes/yellow-swan/img/casaCodigo.jpg",
 			url: "http://casadocodigo.com.br"
+		},
+		{
+			name: "Estácio de Sá",
+			logo: "themes/yellow-swan/img/estacio.gif",
+			url: "http://estacio.br"
 		}
 	],
 
