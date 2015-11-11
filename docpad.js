@@ -154,9 +154,9 @@ module.exports = {
 			presentation: {
 				title: "Testes de Software: Academia x Indústria",
 				description: "Em um mundo ideal, a indústria desenvolve soluções para o bem-estar da humanidade, enquanto a academia propõe formas de melhorar o desempenho da indústria para a geração de suas soluções. "
-					+"No entanto, o cenário atual do mercado de software mostra que a industria prefere caminhar com as próprias pernas acreditando que escutar ideias academicas a fará perder um precioso tempo de desenvolvimento. "
+					+"No entanto, o cenário atual do mercado de software mostra que a indústria prefere caminhar com as próprias pernas acreditando que escutar ideias acadêmicas a fará perder um precioso tempo de desenvolvimento. "
 					+"Em contra-partida, a academia muitas vezes tenta resolver problemas que lhe parecem interessantes, mas que de forma alguma se aplicam ao mercado. "
-					+"Os beneficios da relação entre academia e industria podem ser observados durante todo o ciclo de vida de um projeto de software. Nesta palestra especificamente, trataremos de como este trabalho conjunto pode beneficiar a atividade de testes, impactando diretamente na qualidade final do produto.",
+					+"Os beneficios da relação entre academia e indústria podem ser observados durante todo o ciclo de vida de um projeto de software. Nesta palestra, especificamente, trataremos de como este trabalho conjunto pode beneficiar a atividade de testes, impactando diretamente na qualidade final do produto.",
 				time: "14h50"
 			}
 		},
