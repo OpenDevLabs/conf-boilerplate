@@ -4,6 +4,12 @@
 		<div id="logo">
 			<span style="color: #000;">#</span><span style="color: #666;">Open</span><span style="color: #00A900;">Dev</span>
 		</div>
+
+
+		<a href="https://www.facebook.com/opendevgroup/" target="_blank">
+			<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" alt="Facebook" height="20" />
+		</a>
+
 		<ul>
 		<% for section in @sections : %>
 			<li class="nav-item">
@@ -11,6 +17,7 @@
 			</li>
 		<% end %>
 		</ul>
+
 	</div>
 </nav>
 

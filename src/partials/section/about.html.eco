@@ -1,9 +1,11 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
 
-<p itemprop="description">O OpenLabs é o laboratório aberto do OpenDev para os amantes da tecnologia.</p>
+<p itemprop="description">O <strong>OpenLabs</strong> é o laboratório aberto do <strong>OpenDev</strong> para os amantes da tecnologia.</p>
 
 <p>Para encerrarmos o ano com chave de ouro, teremos a 1º Conferência OpenLabs, um sábado inteiro de palestras e muito networking. Wi-Fi liberado, coffeebreak e emissão de certificado para todos.</p>
 
 <p>Um evento criado por desenvolvedores para desenvolvedores. ;-)</p>
 
-<p>Para conhecer o #OpenDev, acesse <a href="http://opendev.com.br/postagens/o-projeto/" target="_blank">opendev.com.br</a>.</p>
+<p>Para conhecer o <strong>#OpenDev</strong>, acesse <strong><a href="http://opendev.com.br/postagens/o-projeto/" target="_blank">opendev.com.br</a></strong>.</p>
+
+<p>Curta nossa página no <strong><a href="https://www.facebook.com/opendevgroup/" target="_blank">facebook</a></strong> e fique por dentro das novidades do evento. </p>
