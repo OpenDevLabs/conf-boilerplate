@@ -85,7 +85,7 @@ module.exports = {
 		},
 
 		{
-			name: "Coffee-break",
+			name: "Coffee break",
 			time: "10h00"
 		},
 
@@ -162,7 +162,7 @@ module.exports = {
 		},
 
 		{
-			name: "Coffee-break",
+			name: "Coffee break",
 			time: "15h40"
 		},
 
@@ -201,25 +201,30 @@ module.exports = {
 	],
 
     // List of Sponsors
-    sponsors: [
-      /*{
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
-      }*/
-    ],
+	sponsors: [
+		{
+			name: "Agência M3",
+			logo: "themes/yellow-swan/img/M3.jpg",
+			url: "http://digitalm3.com.br"
+		}
+	],
 
 	// List of Partners
 	partners: [
+		{
+			name: "Estácio de Sá",
+			logo: "themes/yellow-swan/img/estacio.gif",
+			url: "http://estacio.br"
+		},
 		{
 			name: "Casa do Código",
 			logo: "themes/yellow-swan/img/casaCodigo.jpg",
 			url: "http://casadocodigo.com.br"
 		},
 		{
-			name: "Estácio de Sá",
-			logo: "themes/yellow-swan/img/estacio.gif",
-			url: "http://estacio.br"
+			name: "Alura",
+			logo: "themes/yellow-swan/img/alura.png",
+			url: "http://alura.com.br"
 		}
 	],
 
