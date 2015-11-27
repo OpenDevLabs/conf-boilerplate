@@ -11,7 +11,7 @@ module.exports = {
 		description: "Para encerrarmos o ano com chave de ouro, teremos a 1º Conferência OpenLabs, um sábado inteiro de palestras e muito networking. Wi-Fi liberado, coffeebreak e emissão de certificado para todos.",
 		date: "05 de Dezembro",
 		// If your event is free, just comment this line
-		price: "Vagas limitadas!",
+		price: "Últimas vagas!",
 		venue: "Auditório da Estácio",
 		address: "Rua José Acurcio Benigno, 116 - 212, Braunes, 28611-135",
 		city: "Nova Friburgo",
@@ -65,7 +65,7 @@ module.exports = {
 	schedule: [
 		{
 			name: "Check-in",
-			time: "8h30",
+			time: "9h40",
 		},
 
 		{
@@ -80,50 +80,8 @@ module.exports = {
 			presentation: {
 				title: "Rest APIS: Por que elas são importantes",
 				description: "Depois do movimento responsive first, mobile first, hoje temos o desenvolvimento de aplicativos e produtos voltados para a abordagem API First. Neste talk, serão apresentados alguns dos motivos para essa abordagem ter ganho tanta força nos últimos anos e também algumas tendências.",
-				time: "9h10"
+				time: "10h20"
 			}
-		},
-
-		{
-			name: "Coffee break",
-			time: "10h00"
-		},
-
-		{
-			name: "Gabriel Paladino",
-			photo: "themes/yellow-swan/img/gabriel.jpg",
-			bio: "Começou programar por hobbie ainda adolescente, passou a atuar profissionalmente em 2008 como desenvolvedor web e empreendedor. Desde então adquiriu experiência em projetos com diversas tecnologias focando atualmente no uso de Ruby on Rails, também atua junto ao ecossistema de tecnologia na região para fomentar o desenvolvimento de pessoas e empresas.",
-			company: "Scupen",
-			link: {
-				href: "",
-				text: ""
-			},
-			presentation: {
-				title: "Ruby, o caminho das pedras",
-				description: "Nesta palestra, veremos o dia a dia de um projeto em Ruby on Rails para que você possa começar a utilizar essa pedra preciosa. Também abordaremos conceitos, ferramentas e boas práticas que todo desenvolvedor pode utilizar para melhorar o seu trabalho.",
-				time: "10h30"
-			}
-		},
-
-		{
-			name: "Em breve",
-			/*photo: "",
-			bio: ".",
-			company: "",
-			link: {
-				href: "",
-				text: ""
-			},
-			presentation: {
-				title: "Em breve",
-				description: "",*/
-				time: "11h20"
-			//}
-		},
-
-		{
-			name: 'Almoço',
-			time: '12h10'
 		},
 
 		{
@@ -138,8 +96,13 @@ module.exports = {
 			presentation: {
 				title: "Desmistificando o mobile híbrido com phonegap",
 				description: "Quanto tempo e dinheiro você está disposto a investir em um aplicativo mobile? Descubra no mobile híbrido uma alternativa aos gargalos gerados pelo desenvolvimento nativo.",
-				time: "14h00"
+				time: "11h10"
 			}
+		},
+
+		{
+			name: 'Almoço',
+			time: '12h00'
 		},
 
 		{
@@ -157,13 +120,24 @@ module.exports = {
 					+"No entanto, o cenário atual do mercado de software mostra que a indústria prefere caminhar com as próprias pernas acreditando que escutar ideias acadêmicas a fará perder um precioso tempo de desenvolvimento. "
 					+"Em contra-partida, a academia muitas vezes tenta resolver problemas que lhe parecem interessantes, mas que de forma alguma se aplicam ao mercado. "
 					+"Os beneficios da relação entre academia e indústria podem ser observados durante todo o ciclo de vida de um projeto de software. Nesta palestra, especificamente, trataremos de como este trabalho conjunto pode beneficiar a atividade de testes, impactando diretamente na qualidade final do produto.",
-				time: "14h50"
+				time: "13h30"
 			}
 		},
 
 		{
-			name: "Coffee break",
-			time: "15h40"
+			name: "Gabriel Paladino",
+			photo: "themes/yellow-swan/img/gabriel.jpg",
+			bio: "Começou programar por hobbie ainda adolescente, passou a atuar profissionalmente em 2008 como desenvolvedor web e empreendedor. Desde então adquiriu experiência em projetos com diversas tecnologias focando atualmente no uso de Ruby on Rails, também atua junto ao ecossistema de tecnologia na região para fomentar o desenvolvimento de pessoas e empresas.",
+			company: "Scupen",
+			link: {
+				href: "",
+				text: ""
+			},
+			presentation: {
+				title: "Ruby, o caminho das pedras",
+				description: "Nesta palestra, veremos o dia a dia de um projeto em Ruby on Rails para que você possa começar a utilizar essa pedra preciosa. Também abordaremos conceitos, ferramentas e boas práticas que todo desenvolvedor pode utilizar para melhorar o seu trabalho.",
+				time: "14h20"
+			}
 		},
 
 		{
@@ -178,12 +152,18 @@ module.exports = {
 			presentation: {
 				title: "Em breve",
 				description: "",*/
-				time: "16h10"
+				time: "15h10"
 			//}
 		},
 
 		{
-			name: "Encerramento / Sorteio",
+			name: "Coffee break",
+			time: "16h00"
+		},
+
+
+		{
+			name: "Sorteio / Encerramento",
 			/*photo: "",
 			bio: ".",
 			company: "",
@@ -194,7 +174,7 @@ module.exports = {
 			presentation: {
 				title: "Em breve",
 				description: "",*/
-				time: "17h00"
+				time: "16h30"
 			//}
 		}
 
@@ -206,6 +186,11 @@ module.exports = {
 			name: "Agência M3",
 			logo: "themes/yellow-swan/img/M3.jpg",
 			url: "http://digitalm3.com.br"
+		},
+		{
+			name: "RG Sistemas",
+			logo: "themes/yellow-swan/img/rg.png",
+			url: "http://rgsistemas.com.br"
 		}
 	],
 
@@ -217,6 +202,11 @@ module.exports = {
 			url: "http://estacio.br"
 		},
 		{
+			name: "CEFET",
+			logo: "themes/yellow-swan/img/cefet.jpg",
+			url: "http://cefetfriburgo.pro.br"
+		},
+		{
 			name: "Casa do Código",
 			logo: "themes/yellow-swan/img/casaCodigo.jpg",
 			url: "http://casadocodigo.com.br"
@@ -225,6 +215,26 @@ module.exports = {
 			name: "Alura",
 			logo: "themes/yellow-swan/img/alura.png",
 			url: "http://alura.com.br"
+		},
+		{
+			name: "TreinaWeb",
+			logo: "themes/yellow-swan/img/treinaWeb.png",
+			url: "http://treinaweb.com.br"
+		},
+		{
+			name: "School of Net",
+			logo: "themes/yellow-swan/img/schoolOfNet.jpg",
+			url: "http://schoolofnet.com/"
+		},
+		{
+			name: "SoftBlue",
+			logo: "themes/yellow-swan/img/softblue.png",
+			url: "http://softblue.com.br"
+		},
+		{
+			name: "iPed",
+			logo: "themes/yellow-swan/img/iped.jpg",
+			url: "http://iped.com.br"
 		}
 	],
 
