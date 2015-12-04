@@ -11,7 +11,7 @@ module.exports = {
 		description: "Para encerrarmos o ano com chave de ouro, teremos a 1º Conferência OpenLabs, um sábado inteiro de palestras e muito networking. Wi-Fi liberado, coffeebreak e emissão de certificado para todos.",
 		date: "05 de Dezembro",
 		// If your event is free, just comment this line
-		price: "Últimas vagas!",
+		price: "Inscrições encerradas",
 		venue: "Auditório da Estácio",
 		address: "Rua José Acurcio Benigno, 116 - 212, Braunes, 28611-135",
 		city: "Nova Friburgo",
@@ -20,10 +20,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    callToAction: {
+    /*callToAction: {
 		text: "Registre-se! É grátis.",
 		link: "http://eventick.com.br/primeiro-openlabs"
-    },
+    },*/
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     /*forkButton: {
